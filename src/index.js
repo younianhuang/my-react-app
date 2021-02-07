@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FetchGitHub from './FetchGitHub';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode>    
+    <FetchGitHub user='younianhuang'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
